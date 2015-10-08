@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b093b3e2d0dfdd7cc955a9eabaeae4ecb0f12123dce6e3f5ede0077c25de7040
-size 502
+# Configuration file
+
+Duct {
+
+    Energy {
+
+        Resonant {
+            I:Transfer=32000
+        }
+
+        Reinforced {
+            I:Transfer=8000
+        }
+
+        Hardened {
+            I:Transfer=800
+        }
+
+        Basic {
+            I:Transfer=200
+        }
+
+        Hybrid {
+            I:Transfer=2000
+        }
+
+    }
+
+}
+
+
+Recipes {
+    B:UseFluidTransposer=true
+    B:UseHardenedGlass=true
+}
+
+
+Version {
+    S:Identifier=1.7.10R1.0.0RC2
+}
+
+

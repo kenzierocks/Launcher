@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f05ea70ac4e7d1a86a054e8fbbcb2a5fed09ed3d6dfd219f289332b69f89034
-size 971
+# Configuration file
+
+##########################################################################################################
+# keybinds
+#--------------------------------------------------------------------------------------------------------#
+# If you're reading this, I would strongly recommend changing the keybinds ingame.
+# iChunUtil uses custom keybinds. Go to the options page and hit O to show other options.
+# 
+# If you really have to edit the config file, the format is <key code>, and append either ":SHIFT", ":CTRL", or ":ALT" for keys you want to hold down at the same time.
+# For key codes go to: http://minecraft.gamepedia.com/Key_codes 
+# Example: 48:SHIFT:ALT will bind to the B key when you hold Shift and Alt.
+##########################################################################################################
+
+keybinds {
+
+    hats {
+        # Key bind to open the Hat Selection GUI?
+        S:guiKeyBind=35
+    }
+
+}
+
+

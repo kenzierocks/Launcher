@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8499a0937910581308bfc868a8370a2f2473ccb79cb65f187f73a6f102d6ff70
-size 309
+var vanilla_enabled = true;
+var ThermalExpansion_enabled = true;
+var Mekanism_enabled = true;
+var ForgeMicroblock_enabled = true;
+var ExtraUtilities_enabled = true;
+var BuildCraft_enabled = true;
+var Bibliocraft_enabled = true;
+var AE2_enabled = true;
+var Tcon_enabled = true;
+var MFR_enabled = true;

@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:baf2d3ee06a445c493b57c49515bd6a046ff3ee355f0abca6675090f854b4c6d
-size 904
+# Configuration file
+
+general {
+    # If all players or only admins can use the /backup command.
+    B:allPlayers=true
+
+    # Compression rate. Has to be between 9 (high compression) and 1 (low compression).
+    I:compressionRate=5
+
+    # How frequently a automatic backup is done in minutes. 0 means Auto-Backup disabled.
+    I:delay=30
+
+    # How many backups are kept. 0 means infinite
+    I:keep=20
+
+    # Where to store the Backups. Either an absolute path or relative to the minecraft folder.
+    S:location=./backups
+
+    # If a backup should be done when the sworld gets unloadad (The server stops or you quit a singleplayer world).
+    B:onShutdown=false
+
+    # If a backup should be done when the world gets loaded.
+    B:onStartup=true
+
+    # If the scheduled backup should be skipped if no players were on the server since the last one.
+    B:skipbackup=true
+}
+
+

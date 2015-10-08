@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7720756f67fbffec52d7ad105e774005d1ec92661e7d906293fb2fc50d938a1
-size 460
+# Configuration file
+
+"hard-coded colors" {
+    B:"Enable Sky Colors"=true
+}
+
+
+"miscellanious settings" {
+    B:"Add Custom Dungeon Loot"=true
+    B:"Behave Normally During Special Events"=false
+    B:"Enable Biomes O' Plenty Main Menu Panorama"=true
+    B:"Enable Spring Water Regeneration Effect"=true
+}
+
+
+"spawn settings" {
+    B:"Only Spawn On Beaches"=true
+
+    # Must be 256 or higher
+    I:"Spawn Location Search Radius"=1024
+}
+
+

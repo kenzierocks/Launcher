@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9f00f807a1d11d9dc701de55f17fcabf7361026c65ed17a822c8452ff2832236
-size 272
+# Configuration file
+
+general {
+    # The EU generation scaling factor. The average number of ticks needed to generate one EU packet.1 is every tick, 2 is every other tick etc. Each Solar will still generate a whole packet (8, 64, 512 EU).
+    I:scaleFactor=1
+}
+
+

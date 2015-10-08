@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d38f79505493b8337f96aed25740096192a62b6274b2ae3db524fc45b0a65a9
-size 103
+if (FML.isModLoaded("BiblioCraft") && Bibliocraft_enabled){
+    NEI.override("BiblioCraft:*", [0]);
+}

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:93d65a74b3051a2c2249998feb570ce094c8c3fb69ecad8f0ec058ce51fa6b40
-size 345
+# Configuration file
+
+scripting {
+    S:AE2_enabled=true
+    S:Bibliocraft_enabled=true
+    S:BuildCraft_enabled=true
+    S:ExtraUtilities_enabled=true
+    S:ForgeMicroblock_enabled=true
+    S:MFR_enabled=true
+    S:Mekanism_enabled=true
+    S:Tcon_enabled=true
+    S:ThermalExpansion_enabled=true
+    S:vanilla_enabled=true
+}
+
+

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:522559f3908f962598cd8e9fa3da36031a65f89f6ea808e790e1066399ab8324
-size 191
+# Configuration file
+
+"debug settings" {
+    # Turn debug mode on/off
+    B:"Debug Mode"=false
+}
+
+
+versions {
+    S:"Trail Version"=dev_trail:1;help_trail:1;donator_trail:1;
+}
+
+

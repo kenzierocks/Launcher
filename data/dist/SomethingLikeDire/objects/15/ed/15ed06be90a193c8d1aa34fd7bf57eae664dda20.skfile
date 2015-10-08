@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e37ac26c97673d811da64dde5adb1670b6bdb6419e0f0242364308b55e3fb44
-size 769
+# Configuration file
+
+feature {
+
+    heads {
+        # If enabled, mobs only drop heads when killed by players.
+        B:MobsDropOnPvEOnly=true
+
+        # If enabled, players only drop heads when killed by other players.
+        B:PlayersDropOnPvPOnly=true
+
+        enable {
+            B:CreepersDropHeads=true
+            B:PlayersDropHeads=true
+            B:SkeletonsDropHeads=true
+            B:WitherSkeletonsDropHeads=false
+            B:ZombiesDropHeads=true
+        }
+
+        chance {
+            I:CreeperDropChance=5
+            I:PlayerDropChance=5
+            I:SkeletonDropChance=5
+            I:WitherSkeletonDropChance=5
+            I:ZombieDropChance=5
+        }
+
+    }
+
+}
+
+
+general {
+    B:EnableModule=true
+}
+
+

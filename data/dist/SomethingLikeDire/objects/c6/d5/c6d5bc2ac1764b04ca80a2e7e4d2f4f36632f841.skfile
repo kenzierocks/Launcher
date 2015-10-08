@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25abc8d139bbb1d67f6a4d4adcf4032da8110fdf3fd04b87a4e69b4597f4855e
-size 858
+# Configuration file
+
+"custom text" {
+    # Insert the text you want here.(Supports multiple lines) [default: [§4B§6E§eT§2T§3E§1R §5T§4I§6T§eL§2E §3S§1C§5R§4E§6E§eN]]
+    S:Text <
+        §1Feed §2The §4Beast§f: §3Something Like Direwolf§520
+     >
+}
+
+
+general {
+    # Show which version of Forge Mod Loader (FML) the client is running. [default: false]
+    B:"Show FML version"=false
+
+    # Show which version of Minecraft Forge the client is running. [default: false]
+    B:"Show Forge version"=false
+
+    # Show which version of Minecraft the client is currently running. [default: true]
+    B:"Show MC version"=true
+
+    # Show which version of Minecraft Coder Pack (MCP) the client is running. [default: false]
+    B:"Show MCP version"=false
+
+    # Show how many mods is loaded. [default: true]
+    B:"Show mods loaded"=false
+}
+
+

@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c87883da75b2a54f73c3b5440d94a73fe06894a45746585f0f006bb7ce8593fc
-size 735
+# Configuration file
+
+Coolants {
+    I:cryotheum=4000000
+    I:ice=2000000
+    I:water=400000
+}
+
+
+Fuels {
+
+    Steam {
+        I:charcoal=32000
+        I:coal=48000
+        I:wood=4500
+    }
+
+    Enervation {
+        I:redstone=64000
+    }
+
+    Magmatic {
+        I:lava=180000
+        I:pyrotheum=2000000
+    }
+
+    Compression {
+        I:bioethanol=500000
+        I:biofuel=500000
+        I:coal=1000000
+        I:fuel=1500000
+        I:oil=150000
+    }
+
+    Reactant {
+        I:biomass=450000
+        I:creosote=200000
+        I:glowstone=750000
+        I:mobessence=500000
+        I:redstone=600000
+        I:seedoil=250000
+        I:sewage=12000
+        I:sludge=12000
+    }
+
+}
+
+

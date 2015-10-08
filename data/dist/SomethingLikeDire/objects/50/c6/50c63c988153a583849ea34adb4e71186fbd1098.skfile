@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:024a5628179f337a4a03f1a811db126c423d4c9befdf5d1f81389be632362714
-size 374
+# Configuration file
+
+debug {
+    B:debuggingEnabled=false
+}
+
+
+general {
+    # If Aroma1997Core should run a VersionCheck.
+    B:checkVersion=true
+}
+
+
+sound {
+    # If true, some sounds can be disabled.
+    B:muffleSounds=false
+
+    # If sounds should get muffled, the sounds to muffle.
+    S:soundsToMuffle <
+        ambient.weather.rain
+     >
+}
+
+

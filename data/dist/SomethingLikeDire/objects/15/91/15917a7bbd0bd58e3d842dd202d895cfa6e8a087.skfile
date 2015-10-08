@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14af3ee57a9ebbf6773f7694a03ad2bc59134b7fa02524df2b21e0194e0865cc
-size 354
+# Configuration file
+
+debughelpers {
+    B:"Dump BIOME ID's in log"=false
+    B:"Dump ENCHANT ID's in log"=false
+    B:"Dump POTION ID's in log"=false
+    B:"Force all unidentified logging entries (STDOUT/STDERR) through log4j2"=false
+    B:enableChat=false
+    B:enableConsole=false
+}
+
+
+environment {
+    B:unsupportedLogging=false
+}
+
+

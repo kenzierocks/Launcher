@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:239700c6966eba9de59da84ab65434bf3da21cf3e55aa2a6bc0beb2d21fe5bc5
-size 465
+## Title: custom_nei_filters
+## Author: denoflionsx
+## Version: 1.0
+## Bootstrap: Bootstrap.js
+## Saved Variables: vanilla_enabled, ThermalExpansion_enabled, Mekanism_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, BuildCraft_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, MFR_enabled
+vanilla.js
+ThermalExpansion.js
+Mekanism.js
+ForgeMicroblock.js
+ExtraUtilities.js
+BuildCraft.js
+Bibliocraft.js
+AppliedEnergistics2.js
+Tcon.js
+MFR.js

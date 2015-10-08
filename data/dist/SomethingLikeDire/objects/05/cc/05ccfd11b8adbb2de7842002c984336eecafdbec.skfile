@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0cad3d4e5933b5be85e887d6c6600997081e0b8126dd163e9a55b6246eb7809b
-size 227
+# Configuration file
+
+main {
+    S:is.currently.harvestable.string=✔
+    S:minimal.mode.separator= : 
+    S:not.currently.harvestable.string=✘
+    S:shearability.string=✂
+    S:silk.touchability.string=✒
+}
+
+

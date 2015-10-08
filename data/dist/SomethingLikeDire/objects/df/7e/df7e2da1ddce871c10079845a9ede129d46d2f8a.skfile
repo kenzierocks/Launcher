@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4e7f7e42601030018a5ae38dd9b369f8c81a7a8d6d6426a0a5c00e08288f1c92
-size 140
+# Configuration file
+
+debug {
+    # Maximum fake player pool that can doesn't produce warning
+    I:fakePlayerCountThreshold=10
+}
+
+

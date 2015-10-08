@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ff9a8bb4f16baadf8580627ee0bd366ed7587d331a03e79c5d59ac5f72e198d
-size 185
+#Translocator Configuration File
+#Deleting any element will restore it to it's default value
+#Block ID's will be automatically generated the first time it's run
+
+checkUpdates=true

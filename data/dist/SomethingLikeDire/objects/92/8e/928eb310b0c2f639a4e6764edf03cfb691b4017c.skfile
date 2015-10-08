@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ef71545d3150d7a94bf6bc815f43be628e992d30aaa47f430f61e7a86efc1cc
-size 375
+// Microblocks always require special handling.
+if (FML.isModLoaded("ExtraUtilities") && ExtraUtilities_enabled){
+    NEI.override("ExtraUtilities:drum", [0, 1]);
+
+    if (FML.isModLoaded("ForgeMicroblock")){
+
+        // Special handler for cleanly removing them.
+        ExtraUtilities.obliterate_microblocks([1, 2, 3], ForgeMicroblock.getRandomMaterial());
+    }
+}

@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:610154ad6e6a662642a5a163ad1e2bea428d1aa168c1316e351b6b30851ef40b
-size 281
+# Configuration file
+
+"modules: disabling these will disable a chunk of the mod" {
+    # Modifyable armors, such as the traveller's gear.
+    B:"Tinkers' Armory"=true
+
+    # Mechanical machinations and steampunk inspired shenanigans.
+    B:"Tinkers' Mechworks"=true
+}
+
+

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:46c484390e1565ba2a1cad0492f3fd7085e5a8ee1ca66d36faab8516b8007f6f
-size 141
+<!-- 
+Entries in this file take precedence over the values in the core file
+ -->
+<OreDictionaryPreferences>
+</OreDictionaryPreferences>
