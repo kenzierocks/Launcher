@@ -1,0 +1,14 @@
+#Properties for LiteLoader 1.7.10_04
+#Tue Oct 20 20:32:05 PDT 2015
+soundManagerFix=true
+tabAlwaysExpanded=false
+search.jarfiles=true
+search.mods=true
+log=stderr
+allowForceUpdate=false
+loadingbar=false
+modInfoScreen=true
+search.classpath=true
+disableJInput=false
+search.zipfiles=false
+search.jar=false
