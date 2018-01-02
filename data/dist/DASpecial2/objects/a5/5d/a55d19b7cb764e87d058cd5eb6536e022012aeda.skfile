@@ -78,7 +78,7 @@ misc {
     # Block IDs (with metadata) to consider equivalent.
     # Names are formatted like 'modName:block_name/metadata'. Separate names (with metadata) with ','. Use 'minecraft' as the mod name for vanilla blocks.
     # [default: 'minecraft:redstone_ore=minecraft:lit_redstone_ore']
-    S:equalBlocks=minecraft:lit_redstone_ore=denseores:block0/5=minecraft:redstone_ore,minecraft:iron_ore=denseores:block0/0,minecraft:gold_ore=denseores:block0/1,minecraft:lapis_ore=denseores:block0/2,minecraft:diamond_ore=denseores:block0/3,minecraft:emerald_ore=denseores:block0/4,minecraft:coal_ore=denseores:block0/6,minecraft:quartz_ore=denseores:block0/7
+    S:equalBlocks=minecraft:lit_redstone_ore=denseores:block0/5=minecraft:redstone_ore,minecraft:iron_ore=denseores:block0/0,minecraft:gold_ore=denseores:block0/1,minecraft:lapis_ore=denseores:block0/2,minecraft:diamond_ore=denseores:block0/3,minecraft:emerald_ore=denseores:block0/4,minecraft:coal_ore=denseores:block0/6,minecraft:quartz_ore=denseores:block0/7,denseores:block0/12=TConstruct:SearedBrick/1,denseores:block0/13=TConstruct:SearedBrick/2,denseores:block0/14=TConstruct:SearedBrick/3,denseores:block0/15=TConstruct:SearedBrick/4,ThermalFoundation:Ore/0=denseores:block1/0,ThermalFoundation:Ore/1=denseores:block1/1,ThermalFoundation:Ore/2=denseores:block1/2,ThermalFoundation:Ore/3=denseores:block1/3,denseores:block1/4=ThermalFoundation:Ore/4,denseores:block1/5=ThermalFoundation:Ore/5,denseores:block1/6=ThermalFoundation:Ore/6
 
     # Change how much experience is required to Veinmine and how much experience each block uses. [range: 0 to 2147483647, default: 0]
     I:expmodifier=0
