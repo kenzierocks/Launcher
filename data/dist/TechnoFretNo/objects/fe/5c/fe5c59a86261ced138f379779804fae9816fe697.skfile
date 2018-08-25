@@ -307,7 +307,8 @@
         "minecraft:nether_brick_fence",
         "minecraft:obsidian",
         "minecraft:quartz_ore",
-        "minecraft:redstone_ore"
+        "minecraft:redstone_ore",
+        "chisel:limestone2/7"
       ]
     },
     "shears": {
